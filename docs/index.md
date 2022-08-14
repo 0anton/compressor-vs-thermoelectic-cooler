@@ -6,7 +6,7 @@ I noticed that many of my friends are using cool boxes, which are connected to e
 
 I‘ve started asking, checking forums and found out there are two systems (okey there is also one „absorbing“ cooling system, which can also operate from gas, but since I don‘t carry large gas balloons with me I discarded this idea): thermoelectric and compressor. The first I met already in hotels - it is really absolutely quiet. It is a semiconductor plate, which get’s cold on one side and hot on the other side, when the current is applied to it. The second - is a typical fridge system with a circulating coolant, which compressed to liquid, transported to a radiator and evaporated their, acting as a heat pump.
 
-100% of my friends had thermoelectric devices. Those devices were also affordable (some under $100), of convenient size and with handy carry handle. So, it was obviously a best choice, considering that a lot of other campers were using them too.
+100% of my friends had thermoelectric devices. Those devices were also affordable (some under €100), of convenient size and with handy carry handle. So, it was obviously a best choice, considering that a lot of other campers were using them too.
 
 But I was a bit unsure after I read some forums, where experienced campers exchanged on ideal cooler for the campsite. Many of them complained that thermoelectric devices were too weak to cool down food or beverages on the warm day if they were warm and placed into compartment in the reasonable time. Some complained that the thermoelectric system cannot maintain temperature different over 15 degrees below the ambient temperature. Remembering that we had weeks of over +35 °C and up to +40, I was worried that +20°C may be not enough for the fish stake (recommended to keep +2°C or below).
 
@@ -94,7 +94,7 @@ Thermoelectric unit showed very limited range of temperatures it can maintain. T
 ![](assets/cooling_mode.jpg)
 
 
-Another fact, which I found quit important was that the compressor unit was working only 30% of time. I assume that the cooling speed can be much higher if I would set a lower target temperature (e.g. -10°C). The unit was just trying not to overcool and were working in on/off mode with the duty cycle of about 1:4 (changing from 1:1 to 1:6 over the measurement time).
+Another fact, which I found quit important was that the compressor unit was working only 30% of time. I assume that the cooling speed can be much higher if I would set a lower target temperature (e.g. -10°C). The unit was just trying not to overcool and were working in on/off mode with the duty cycle of about 1:2.5.
 
 
 **Ideal efficiency**
@@ -135,11 +135,12 @@ Dity cycle calculation for compressor unit:
 
 Another fact, which amazed me a lot was the difference in the energy efficiency between compressor and thermoelectric unit. The latter was always on was not cooling a lot, but consuming continuously 50W. Even in supposed to be a quit night mode, it was 48W. Probably, only the speed of fans were reduced, but the semiconductor current stayed the same to compensate the heat exchange deficits from the low rotating fans.
 
-Compressor unit was using 42-38W with much higher and much wider range of temperatures. But this 42W was only consumed during the duty cycle, which was 1:5 or lower. So, it consumed much less energy! Effectively 10W per hour (4x less then the thermoelectric unit).
+Compressor unit was using 42-38W with much higher and much wider range of temperatures. But this 45W was only consumed during the duty cycle, which was 1:2.5 or lower. So, it consumed much less energy! Effectively 10W per hour (4x less then the thermoelectric unit).
 
 I don’t have large fridge in my apartment and it is not specially cool, so I decided to use the camping cooler as a second fridge in the basement. I realized that thermoelectric unit is absolute no go for that: 
 
-Given the increased electricity costs in EU (0,40EUR/kWh) it would cost 172EUR/year given 24h operation. Compressor unit would cost just 35EUR/year.
+Given the increased electricity costs in EU (€0,40/kWh) and 51W constant power consumption it would cost €179/year in 24h operation. Compressor unit with average 18W power consumption would cost just €63/year.
+
 I also doubt the thermoelectric unit would also survive the permanent power-on mode, because its both fans (external and internal) are always on, 24h. And that’s another point.
 
 ### Noise level
@@ -199,7 +200,7 @@ In the other time, when I’m not traveling I will use it as a normal fridge or 
 
 
 
-# Appendix 1
+# Appendix
 
 ## Links
 
