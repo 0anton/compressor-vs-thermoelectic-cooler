@@ -217,7 +217,7 @@ In the other time, when I’m not traveling I will use it as a normal fridge or 
 
 ## Feedback and corrections
 
-If you found an inaccuracy or want to give a feedback, please open an **issue** in the repository.
+If you found an inaccuracy or want to give a feedback, please [open an issue in the repository](https://github.com/0anton/compressor-vs-thermoelectic-cooler/issues/new).
 
 ## Disclamer & copyright
 
