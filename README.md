@@ -1,2 +1,2 @@
-# compressor-vs-thermoelectic-cooler
-Comparing compressor vs thermoelectric cooler for camping
+# Compressor vs thermoelectric camping cooler
+This repository holds the [comparison of cooling efficiency for camping cooler: compressor type vs thermoelectric type](https://0anton.github.io/compressor-vs-thermoelectic-cooler/).
