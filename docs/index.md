@@ -206,9 +206,9 @@ In the other time, when I’m not traveling I will use it as a normal fridge or 
 
 1. [Campingaz Powerbox Plus Thermoelectric 12 V/230 V Cool Box, 24 liter](https://www.amazon.de/gp/product/B01M3UUO36/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-2. [Mobicool MCF40 Electric Compressor Mini Fridge 32 liter](https://www.amazon.de/gp/product/B07ZTPGY9R/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) ~ €300.
+2. [Mobicool MCF40 Electric Compressor Mini Fridge 32 liter](https://www.amazon.de/gp/product/B07ZTPGY9R/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
 
-3. [Aqara Temperatur- und Feuchtigkeitssensor](https://www.amazon.de/-/en/WSDCGQ11LM/dp/B07D37FKGY/ref=sr_1_10?keywords=aqara&qid=1660485019&sprefix=aq%2Caps%2C104&sr=8-10) ~ €117.
+3. [Aqara Temperatur- und Feuchtigkeitssensor](https://www.amazon.de/-/en/WSDCGQ11LM/dp/B07D37FKGY/ref=sr_1_10?keywords=aqara&qid=1660485019&sprefix=aq%2Caps%2C104&sr=8-10)
 
 4. [Aqara Smart socket](https://www.amazon.de/requires-programming-control-monitoring-Assistant/dp/B087M8LF63/ref=sr_1_6?keywords=aqara&qid=1660485019&sprefix=aq%2Caps%2C104&sr=8-6)
 
