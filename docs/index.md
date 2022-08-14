@@ -102,7 +102,13 @@ I also doubt the thermoelectric unit would also survive the permanent power-on m
 
 ### Noise level
   
-Even I didn’t like compressor unit noise at the beginning, I reconsidered it after I switched on the thermoelectric unit. It was considerable louder and much less pleasant because of the higher pitch. And because of already discussed “always on mode” it would annoy constantly.
+Even I didn’t like compressor unit noise at the beginning, I reconsidered it after I switched on the thermoelectric unit.
+
+It was considerable louder and much less pleasant because of the higher pitch. And because of already discussed “always on mode” it would annoy constantly.
+
+Compressor unit:
+[Noise Level recording for Mobicool MCF40 Compressor Cooler 32 l](https://youtube.com/shorts/PUXMgJ_BR3w?feature=share)
+
 
 Being fair, there is an “eco” mode on the thermoelectric unit, but works as a one-temperature set level, but it does not produces good results. At +25C ambient temperature the thermoelectric box over longer time (8h+) produced waves of +9°C..+14°C, which is way to bad for my fresh fish/meat use-case.
 
@@ -111,9 +117,12 @@ Compressor unit noises at 330Hz with 42dB
 
 Thermoelectric in eco mode runs with 52dB with much higher and less pleasant pitch of 800Hz:
 ![](assets/noise_thermoelectric.jpg)
+[Noise level Campingaz Powerbox Plus Thermoelectric running Eco Mode](https://youtube.com/shorts/fag9p1yz-V4)
+
 
 And:
 ![](assets/noise_thermoelectric_eco_mode.jpg)
+
 
 
 ## Measurement details.
@@ -137,6 +146,9 @@ For power measurement I’ve took [Aqara Smart Plug](https://www.aqara.com/eu/sm
 Noise levels I measured directly from 1 meter distant from the working unit.
 I took app DecibelX v.9.5.0 running on my iPhone 11 Pro Max iOS 15.6.
 
+There is 32dB remaining noise in the completely quiet basement:
+[Quiet level measurement](https://youtube.com/shorts/rjtmXLIjEfA).
+
 
 # Conclusion
 
@@ -148,7 +160,9 @@ In the other time, when I’m not traveling I will use it as a normal fridge or 
 
 
 
-# Appendix 1. Links
+# Appendix 1
+
+## Links
 
 1. [Campingaz Powerbox Plus Thermoelectric 12 V/230 V Cool Box, 24 liter](https://www.amazon.de/gp/product/B01M3UUO36/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
@@ -159,16 +173,10 @@ In the other time, when I’m not traveling I will use it as a normal fridge or 
 4. [Aqara Smart socket](https://www.amazon.de/requires-programming-control-monitoring-Assistant/dp/B087M8LF63/ref=sr_1_6?keywords=aqara&qid=1660485019&sprefix=aq%2Caps%2C104&sr=8-6)
 
 
-5. [Quiet level measurement](https://youtube.com/shorts/rjtmXLIjEfA).
-6. [Noise level Campingaz Powerbox Plus Thermoelectric running Eco Mode](https://youtube.com/shorts/fag9p1yz-V4)
-7. [Noise Level recording for Mobicool MCF40 Compressor Cooler 32 l](https://youtube.com/shorts/PUXMgJ_BR3w?feature=share)
+## Feedback and corrections
 
+If you found an inaccuracy or want to give a feedback, please open an **issue** in the repository.
 
-# Feedback and corrections
+## Disclamer & copyright
 
-# Disclamer & copyright
-
-I'm not affiliated with any vendor of used equipment. I bought all equipment on my own money. I publish this results for my later self and anybody who may find it useful. Attribution and source link is required to this original work is required.
-
-
-If you found any inaccuracy 
+I'm not affiliated with any vendor of used equipment. I bought all equipment on my own money. I publish this results for my later self and anybody who may find it useful. Attribution and link to this original work is required.
