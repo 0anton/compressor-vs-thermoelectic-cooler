@@ -31,6 +31,12 @@ From Amazon [1] description:
 - Large capacity: 24 litre capacity for food and drinks, 1.5 litre bottles can be stored standing
 - Stable, movable handle; ultra-quiet fan (36 dB); power control by adjusting dial with 4 modes: off, night mode, eco mode, max mode; energy efficiency class A++
 
+Look:
+![](assets/thermoelectric_cooler_look.jpg)
+
+Spec label:
+![](assets/thermoelectirc_spec.jpg)
+
 
 ### Mobicool MCF40 Electric Compressor Mini Fridge 32l
 
@@ -69,9 +75,17 @@ To quantify my feelings decided to measure a cooling efficiently, energy efficie
 
 ### Cooling efficiency
 
-To measure cooling efficiency I put two bottles of 1.5l water by the room temperature (+25°C) into pre-cooled unit (so it was 3 liters of water). I didn’t put a goal to synchronize the starting conditions of the both units. I just waited until the temperature in each each unit start declining and measured the velocity of such decline in the steepest part of the curve, or basically time the temperature needed to decrease by 5°C. That’s roughly correct, because you need the same amount of energy to cool a liter of water from t1 to t2, independent of absolute values. Since the sensor is located directly on the bottle of water and has very little own inertia and given the slowness of the process, we can roughly say it measure the temperature of the water in the battle and nothing else. So, we’ve measured the power of the heat pump applied to 3l of water.
+To measure cooling efficiency I put two bottles of 1.5l water by the room temperature (+25°C) into pre-cooled unit (so it was 3 liters of water).
+
+![](assets/bottles_setup.jpg)![](assets/compressor_cooler_label.jpg)![](assets/compressor_cooler_look.jpg)
+
+
+I didn’t set a goal to synchronize the starting conditions of the both units. I just waited until the temperature in each each unit start declining and measured the velocity of such decline in the steepest part of the curve, or basically time the temperature needed to decrease by 5°C. That’s roughly correct, because you need the same amount of energy to cool a liter of water from t1 to t2, independent of absolute values. Since the sensor is located directly on the bottle of water and has very little own inertia and given the slowness of the process, we can roughly say it measure the temperature of the water in the battle and nothing else. So, we’ve measured the power of the heat pump applied to 3l of water.
 
 Thermoelectric showed very limited range of temperatures it can maintain. The decline of the temperature faded out at +7°C by 12 hours, where the compressor unit happily moved it down to configured +5°C (and could go further without problems, as I tested with the ice cream on the camp site next week).
+
+![](assets/cooling_mode.jpg)
+
 
 Another fact, which I found quit important was that the compressor unit was working only 20% of time. I assume that the cooling speed can be much higher if I would set a lower target temperature (e.g. -10°C). The unit was just trying not to overcool and were working in on/off mode with the duty cycle of about 1:4 (changing from 1:1 to 1:6 over the measurement time).
 
@@ -90,7 +104,16 @@ I also doubt the thermoelectric unit would also survive the permanent power-on m
   
 Even I didn’t like compressor unit noise at the beginning, I reconsidered it after I switched on the thermoelectric unit. It was considerable louder and much less pleasant because of the higher pitch. And because of already discussed “always on mode” it would annoy constantly.
 
-Being fair, there is an “eco” mode on the thermoelectric unit, but works as a one-temperature set level, but it does not produces good results. At +25C ambient temperature the thermoelectric box over longer time (8h+) produced waves of +9°C..+14°C. Which 
+Being fair, there is an “eco” mode on the thermoelectric unit, but works as a one-temperature set level, but it does not produces good results. At +25C ambient temperature the thermoelectric box over longer time (8h+) produced waves of +9°C..+14°C, which is way to bad for my fresh fish/meat use-case.
+
+Compressor unit noises at 330Hz with 42dB
+![](assets/noise_compressor.jpg)
+
+Thermoelectric in eco mode runs with 52dB with much higher and less pleasant pitch of 800Hz:
+![](assets/noise_thermoelectric.jpg)
+
+And:
+![](assets/noise_thermoelectric_eco_mode.jpg)
 
 
 ## Measurement details.
@@ -99,7 +122,11 @@ Being fair, there is an “eco” mode on the thermoelectric unit, but works as 
 
 For temperature measurement I’ve took [Aqara temperature sensor](https://www.aqara.com/us/temperature_humidity_sensor.html) for its preciseness (0.3°C according to manufacturer) and low inertion. Sensor polls data frequently (at least every 10 seconds) and sends the update if the value has changed above the threashold.
 
+![](assets/thermometer_aqara.jpg)
+
 I placed the sensor on the bottle directly, so it does not touch the might be warmer (in case of thermoelectric unit) or colder (in case of the compressor unit) walls.
+
+![](assets/smart_plug_aqara.jpg)
 
 ### Power measurement
 
@@ -111,38 +138,14 @@ Noise levels I measured directly from 1 meter distant from the working unit.
 I took app DecibelX v.9.5.0 running on my iPhone 11 Pro Max iOS 15.6.
 
 
+# Conclusion
 
-## Cooling efficiency
+As you would guess if you read the previous text, I stayed with compressor box. Nor the 3x cheaper price, a 2.5x times lower weight, less bulky design, convenient handle can compensate to low cooling efficiency. You can by 3 such units for the price of the compressor, but all three won’t help you keep you food fresh. Nor you can sleep conveniently next to such noise generator. Vocation on the nature is something different, right? 
 
-## Noise levels
+I have to inconveniently carry a 11kg compressor box plus food weight with both hands in front of me and occupy one seat in my car with it, but it does the job perfectly.
 
-## Power consumption
+In the other time, when I’m not traveling I will use it as a normal fridge or freezer in my basement.
 
-
-
-
-# 2. Measurement system
-
-
-# Results & conclusion
-
-![](assets/bottles_setup.jpg)![](assets/compressor_cooler_label.jpg)![](assets/compressor_cooler_look.jpg)
-
-![](assets/cooling_mode.jpg)
-
-![](assets/noise_compressor.jpg)
-
-![](assets/noise_thermoelectric.jpg)
-
-![](assets/noise_thermoelectric_eco_mode.jpg)
-
-![](assets/smart_plug_aqara.jpg)
-
-![](assets/thermoelectirc_spec.jpg)
-
-![](assets/thermoelectric_cooler_look.jpg)
-
-![](assets/thermometer_aqara.jpg)
 
 
 # Appendix 1. Links
