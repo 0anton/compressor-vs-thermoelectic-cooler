@@ -1,7 +1,17 @@
 # How it is started
 
+Several days a go I was on the camp site with friends. I was used to autonomous style hiking in Alps, where you limited to the weight you can carry, so the food is very basic. On the camp site you come with the car (or friends car) and can carry much more with you and allow much bette food ration. I like fresh milk products a lot, grilling fish and meat on the nature is also a great delight. I started using a 8l cool box from Decathlong with two 1,5l frozen bottles. I liked it a lot - now I can take my jogurts, quark, fresh fruits and even meat. Previously it all get trashed, sometimes even during the ride to the campsite, e.g. in Austria, after 4h ride. Now it stayed fresh for 1.5 days! And the enjoyment from staying on nature increased a lot, because you have good healthy food with you. But one day I had to stay longer than 2 days, the frozen water in bottles has melted and the fruits and meat get spoiled. That‘s a pity! It smells, it is inconvenient, because you rely that you have some food with you, but instead you have to look for the shops in the time, where you just wanted to eat.
 
+I noticed that many of my friends are using cool boxes, which are connected to electricity. I was not experienced that time in such campaign equipment, so I‘ve start asking. The idea of having a fridge on the campsite amazed me: no longer playing lottery with frozen bottles, no more smelly wasted food in the cooling compartment, delicious healthy food is always with you. Isn’t that cool?
 
+I‘ve started asking, checking forums and found out there are two systems (okey there is also one „absorbing“ cooling system, which can also operate from gas, but since I don‘t carry large gas balloons with me I discarded this idea): thermoelectric and compressor. The first I met already in hotels - it is really absolutely quiet. It is a semiconductor plate, which get’s cold on one side and hot on the other side, when the current is applied to it. The second - is a typical fridge system with a circulating coolant, which compressed to liquid, transported to a radiator and evaporated their, acting as a heat pump.
+
+100% of my friends had thermoelectric devices. Those devices were also affordable (some under $100), of convenient size and with handy carry handle. So, it was obviously a best choice, considering that a lot of other campers were using them too.
+
+But I was a bit unsure after I read some forums, where experienced campers exchanged on ideal cooler for the campsite. Many of them complained that thermoelectric devices were too weak to cool down food or beverages on the warm day if they were warm and placed into compartment in the reasonable time. Some complained that the thermoelectric system cannot maintain temperature different over 15 degrees below the ambient temperature. Remembering that we had weeks of over +35 °C and up to +40 
+     
+
+ 
 Mobicool MCF40 Compressor Cooler
 Campingaz Powerbox Plus Thermoelectric 12 V/230 V Cool Box, 24 liter
 
