@@ -213,6 +213,13 @@ In the other time, when I’m not traveling I will use it as a normal fridge or 
 4. [Aqara Smart socket](https://www.amazon.de/requires-programming-control-monitoring-Assistant/dp/B087M8LF63/ref=sr_1_6?keywords=aqara&qid=1660485019&sprefix=aq%2Caps%2C104&sr=8-6)
 
 
+## Experiment with forgotten lost power and recovery
+
+Here on the chart you see how the compressor unit responds on 4.5h power outage. It warmed from 4.1°C till 9°C over 4.5h and then cooled down to 2.7°C in 30 minutes.
+There was about 2 kg of food in the coolbox.
+
+![](assets/power_outage_experiment.jpg)
+
 ## Feedback and corrections
 
 If you found an inaccuracy or want to give a feedback, please [open an issue in the repository](https://github.com/0anton/compressor-vs-thermoelectic-cooler/issues/new).
