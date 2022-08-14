@@ -46,6 +46,13 @@ From Amazon [2] description:
 - 31 litre volume, space for upright 1 litre bottles
 - Electric cool box for 12 V DC, 24 V DC and 230 V AC connection
 
+Look:
+![](assets/compressor_cooler_look.jpg)
+
+Label:
+![](assets/compressor_cooler_label.jpg)
+
+
 # First impressions
 
 ## Mobicool MCF40
@@ -77,7 +84,7 @@ To quantify my feelings decided to measure a cooling efficiently, energy efficie
 
 To measure cooling efficiency I put two bottles of 1.5l water by the room temperature (+25°C) into pre-cooled unit (so it was 3 liters of water).
 
-![](assets/bottles_setup.jpg)![](assets/compressor_cooler_label.jpg)![](assets/compressor_cooler_look.jpg)
+![](assets/bottles_setup.jpg)
 
 
 I didn’t set a goal to synchronize the starting conditions of the both units. I just waited until the temperature in each each unit start declining and measured the velocity of such decline in the steepest part of the curve, or basically time the temperature needed to decrease by 5°C. That’s roughly correct, because you need the same amount of energy to cool a liter of water from t1 to t2, independent of absolute values. Since the sensor is located directly on the bottle of water and has very little own inertia and given the slowness of the process, we can roughly say it measure the temperature of the water in the battle and nothing else. So, we’ve measured the power of the heat pump applied to 3l of water.
