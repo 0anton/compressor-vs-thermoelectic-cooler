@@ -54,7 +54,7 @@ I took app DecibelX v.9.5.0 running on my iPhone 11 Pro Max iOS 15.6.
 
 # Results & conclusion
 
-
+![](assets/bottles_setup.jpg)![](assets/compressor_cooler_label.jpg)![](assets/compressor_cooler_look.jpg)![](assets/cooling_mode.jpg)![](assets/noise_compressor.jpg)![](assets/noise_thermoelectric.jpg)![](assets/noise_thermoelectric_eco_mode.jpg)![](assets/smart_plug_aqara.jpg)![](assets/thermoelectirc_spec.jpg)![](assets/thermoelectric_cooler_look.jpg)![](assets/thermometer_aqara.jpg)
 
 
 # Appendix 1. Links
@@ -73,10 +73,11 @@ I took app DecibelX v.9.5.0 running on my iPhone 11 Pro Max iOS 15.6.
 7. [Noise Level recording for Mobicool MCF40 Compressor Cooler 32 l](https://youtube.com/shorts/PUXMgJ_BR3w?feature=share)
 
 
-# Disclamer & copyright.
-
-I'm not affiliated with any vendor of used equipment. I bought all equipment for my own money. I publish this results for my later self and anybody who may find it useful. By re-print attribution and source link is required.
-
 # Feedback and corrections
+
+# Disclamer & copyright
+
+I'm not affiliated with any vendor of used equipment. I bought all equipment on my own money. I publish this results for my later self and anybody who may find it useful. Attribution and source link is required to this original work is required.
+
 
 If you found any inaccuracy 
