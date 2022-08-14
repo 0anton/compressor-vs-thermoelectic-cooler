@@ -87,14 +87,49 @@ To measure cooling efficiency I put two bottles of 1.5l water by the room temper
 ![](assets/bottles_setup.jpg)
 
 
-I didn’t set a goal to synchronize the starting conditions of the both units. I just waited until the temperature in each each unit start declining and measured the velocity of such decline in the steepest part of the curve, or basically time the temperature needed to decrease by 5°C. That’s roughly correct, because you need the same amount of energy to cool a liter of water from t1 to t2, independent of absolute values. Since the sensor is located directly on the bottle of water and has very little own inertia and given the slowness of the process, we can roughly say it measure the temperature of the water in the battle and nothing else. So, we’ve measured the power of the heat pump applied to 3l of water.
+I didn’t set a goal to synchronize the starting conditions of the both units. I just waited until the temperature in each each unit start declining and measured the velocity of such decline in the steepest part of the curve, or basically time the temperature needed to decrease by 5°C. That’s roughly correct, because you need the same amount of energy to cool a liter of water from _t1_ to _t2_, independent of absolute values. Since the sensor is located directly on the bottle of water and has very little own inertia and given the slowness of the process, we can roughly say it measure the temperature of the water in the battle and nothing else. So, we’ve measured the power of the heat pump applied to 3l of water.
 
-Thermoelectric showed very limited range of temperatures it can maintain. The decline of the temperature faded out at +7°C by 12 hours, where the compressor unit happily moved it down to configured +5°C (and could go further without problems, as I tested with the ice cream on the camp site next week).
+Thermoelectric unit showed very limited range of temperatures it can maintain. The decline of the temperature faded out at +7°C by 12 hours, where the compressor unit happily moved it down to configured +5°C (and could go further without problems, as I tested with the ice cream on the camp site the following week).
 
 ![](assets/cooling_mode.jpg)
 
 
-Another fact, which I found quit important was that the compressor unit was working only 20% of time. I assume that the cooling speed can be much higher if I would set a lower target temperature (e.g. -10°C). The unit was just trying not to overcool and were working in on/off mode with the duty cycle of about 1:4 (changing from 1:1 to 1:6 over the measurement time).
+Another fact, which I found quit important was that the compressor unit was working only 30% of time. I assume that the cooling speed can be much higher if I would set a lower target temperature (e.g. -10°C). The unit was just trying not to overcool and were working in on/off mode with the duty cycle of about 1:4 (changing from 1:1 to 1:6 over the measurement time).
+
+
+**Ideal efficiency**
+
+To cool 1 liter of water by 1 °C we need 4180 Joules of energy or 250 Wh. Any cooling system will require more than that.
+```
+1J = 1Ws
+4180 Ws = 4180 Ws / 3600 = 1.16 Wh
+```
+To cool 3 liter of water we will need 1.16 Wh/liter *3 liter = 3,48 Wh
+
+**Real efficiency**
+
+From time period 12:30 till 18:00 (5 hours and 30 minutes) compressor has managed to cool the water from 13.2 till 4.2 °C, while consuming 0.1 kWh energy. We can expect to cool by 10 °C in 6.1 hours. We can notice that the compressor works only fraction of time. The it works, the unit consumes 45W. Hence if it would constantly, it would consume 247.5 Wh, but it consumed only 100 Wh. So we can expect that given 100% comperssor on-time we will cool the water by 10 °C in just 2.4 hours. Compressor unit consumes 11 Wh to cool water by 1°C. This is 32% efficiency as per calculated ideal.
+
+Thermoelectric unit managed to cool water by 7.6 °C from 17.8 till 10.2 °C consuming 280 Wh over the same period of time. So, to cool same amount of water by 10°C we would expect to take 7.23h. The unit consumes about 51W energy continuously, which is 37 Wh/°C. According to reference value of 3.48 Wh the unit works with the efficiency of 9%  
+
+Raw numbers:
+```
+12:30-18:00 - 5h30m
+- compressor:     13.2-4.2  = 9°C    0.433-0.533=0.100 kWh => 10°C -> 6.1h => by 100% -> 2,44h, 11 Wh/°C (32%)
+- thermoelectric: 17.8-10.2 = 7.6°C  0.910-1.19 = 0.280 kWh => 7,23h, 37 Wh/°C (9%)
+```
+
+Dity cycle calculation for compressor unit:
+```
+45W * 5.5h = 247,5Wh
+100 Wh/ 247,5 Wh = 1:2.5
+40%
+1:2.5
+```
+
+
+![](assets/cooling_progress.jpg)
+
 
 ### Energy efficiency
 
