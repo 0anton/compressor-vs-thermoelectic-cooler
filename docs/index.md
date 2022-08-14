@@ -146,28 +146,25 @@ I also doubt the thermoelectric unit would also survive the permanent power-on m
   
 Even I didn’t like compressor unit noise at the beginning, I reconsidered it after I switched on the thermoelectric unit.
 
-It was considerable louder and much less pleasant because of the higher pitch. And because of already discussed “always on mode” it would annoy constantly.
+It was considerable louder and much less pleasant because of the higher pitch (870 Hz vs 310 Hz). And because of already discussed “always on mode” it would annoy constantly.
 
-Compressor unit:
-[Noise Level recording for Mobicool MCF40 Compressor Cooler 32 l](https://youtube.com/shorts/PUXMgJ_BR3w?feature=share)
+**Compressor unit noise recording:** [Noise Level recording for Mobicool MCF40 Compressor Cooler 32 l](https://youtube.com/shorts/PUXMgJ_BR3w?feature=share)
 
-
-Being fair, there is an “eco” mode on the thermoelectric unit, but works as a one-temperature set level, but it does not produces good results. At +25C ambient temperature the thermoelectric box over longer time (8h+) produced waves of +9°C..+14°C, which is way to bad for my fresh fish/meat use-case.
-
-Compressor unit noises at 330Hz with 42dB
+**Compressor unit noises at 330Hz with 42dB**
 ![](assets/noise_compressor.jpg)
+
 
 Thermoelectric in eco mode runs with 52dB with much higher and less pleasant pitch of 800Hz:
 ![](assets/noise_thermoelectric.jpg)
 [Noise level Campingaz Powerbox Plus Thermoelectric running Eco Mode](https://youtube.com/shorts/fag9p1yz-V4)
 
-
-And:
 ![](assets/noise_thermoelectric_eco_mode.jpg)
 
+Being fair, there does exist an “eco” mode on the thermoelectric unit, which works as a one-temperature set level. But it does not produces good results. At +25C ambient temperature the thermoelectric box over longer time (8h+) produced waves of +9°C..+14°C, which is way too bad for my fresh fish/meat use-case.
 
 
-## Measurement details.
+
+## Measurement details
 
 ### Temperature measurement
 
@@ -177,11 +174,11 @@ For temperature measurement I’ve took [Aqara temperature sensor](https://www.a
 
 I placed the sensor on the bottle directly, so it does not touch the might be warmer (in case of thermoelectric unit) or colder (in case of the compressor unit) walls.
 
-![](assets/smart_plug_aqara.jpg)
-
 ### Power measurement
 
 For power measurement I’ve took [Aqara Smart Plug](https://www.aqara.com/eu/smart_outlet.html). It has accumulating, increasing counter for energy use and momentary power consumption sensort. Poll times upto 1s (1HZ) if the measured value change comes other the threashold. All sample data were recorded.
+
+![](assets/smart_plug_aqara.jpg)
 
 ### Noise level measurement
 
